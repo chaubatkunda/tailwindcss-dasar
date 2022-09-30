@@ -1,0 +1,21 @@
+{
+  "name": "belajar-tailwind",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "npx tailwindcss -i ./src/style.css -o ./public/style.css --watch",
+    "prod": "npx ./public/style.css --minify",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.1.8"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.12",
+    "postcss": "^8.4.17"
+  }
+}
